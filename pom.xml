@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springboot-assignment-lab1</artifactId>
+	<artifactId>productapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-assignment-lab1</name>
 	<description>Assignment Lab 1</description>
@@ -54,6 +54,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.github.vladimir-bukhtoyarov</groupId>
+			<artifactId>bucket4j-core</artifactId>
+			<version>8.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
